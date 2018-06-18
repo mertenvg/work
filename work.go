@@ -13,8 +13,9 @@ type Task func() error
 type Work []Task
 
 // Add a Task to the work queue
-func (w *Work) Add(ts ...Task) {
+func (w *Work) Add(ts ...Task) Work {
 	*w = append(*w, ts...)
+	return *w
 }
 
 // Do the work

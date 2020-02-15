@@ -3,7 +3,7 @@ Create a work queue to run tasks in sequence and stop when an error is encounter
 
 ### Install
 
-`go get github.com/whitecypher/work`
+`go get github.com/mertenvg/work`
 
 ### Usage
 
